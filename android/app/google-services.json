@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "22887538827",
+    "project_id": "padma-cb65f",
+    "storage_bucket": "padma-cb65f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22887538827:android:f080f108b1a6324f51748e",
+        "android_client_info": {
+          "package_name": "com.padmacollections.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22887538827-jda4vgd5lijq6inrr4be8ei4hlj0pelm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.padmacollections.app",
+            "certificate_hash": "f90645be7185c4f27dc2bee41ed85edac01ca3d4"
+          }
+        },
+        {
+          "client_id": "22887538827-jloh59p85vr0h5ksljjnvlme87f4df96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmxsaCpxHt4jBwI_6EerzprFZl-g1qHDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22887538827-jloh59p85vr0h5ksljjnvlme87f4df96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

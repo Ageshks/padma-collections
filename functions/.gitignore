@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Local environment overrides.
+#
+# This file is git-ignored. `.env.project-id` is safe to commit; anything
+# holding a real token must live in `.env.<project-id>.local` or be injected by
+# the deploy pipeline. Never commit a token.
+.env
+.env.*.local
+
+# Firebase framework build output
+.lib/
+*.log

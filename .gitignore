@@ -1,0 +1,69 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# --- Firebase / Android release signing -----------------------------------
+# Never commit: the upload keystore and its passwords.
+android/key.properties
+*.jks
+*.keystore
+
+# --- Cloudinary credentials ----------------------------------------------
+# The Cloudinary API secret must NEVER be committed and must never reach the
+# Flutter app. It lives only in Firebase Secret Manager, injected into the
+# Cloud Functions runtime at deploy time:
+#
+#   firebase functions:secrets:set CLOUDINARY_API_SECRET
+#
+# These patterns are a backstop against an accidental `source .env`.
+.env
+.env.*
+functions/.env
+functions/.env.*
+
+# Generated security-rules test artifacts
+tool/node_modules/
+tool/.emulator.log
+tool/package-lock.json

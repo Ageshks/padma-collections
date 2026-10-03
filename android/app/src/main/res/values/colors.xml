@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tint applied to the small notification icon shown in the Android status
+     bar. Must be an opaque colour: Android ignores the alpha channel of the
+     icon itself and renders it as a silhouette. Matches the brand burgundy. -->
+<resources>
+    <color name="notification_color">#7B1E3A</color>
+</resources>

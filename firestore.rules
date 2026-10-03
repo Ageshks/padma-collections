@@ -1,0 +1,146 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------------------------------------------------------------------
+    // Helpers
+    // ---------------------------------------------------------------------
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn()
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin'
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isActive == true;
+    }
+
+    function isSelf(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    // A customer may only ever create their own profile, and always as a
+    // customer. This is what stops anybody self-promoting to admin at signup.
+    // Google Sign-In goes through exactly this path, so a Google user is bound
+    // by the same guarantee as an email/password user.
+    function isCreatingOwnCustomerProfile() {
+      return isSignedIn()
+        && request.auth.uid == request.resource.data.uid
+        && request.resource.data.role == 'customer';
+    }
+
+    // Blocks role escalation through a self-service profile update: a customer
+    // may edit their own name, phone and photo, but never their own role.
+    function roleUnchanged() {
+      return request.resource.data.role == resource.data.role;
+    }
+
+    // Stops anyone overwriting an existing profile (including an admin's).
+    function isNotImpersonating() {
+      return !exists(/databases/$(database)/documents/users/$(request.auth.uid));
+    }
+
+    // ---------------------------------------------------------------------
+    // users/{userId}
+    // ---------------------------------------------------------------------
+
+    match /users/{userId} {
+      allow get: if isSelf(userId) || isAdmin();
+      allow list: if isAdmin();
+
+      // Applies to both email/password and Google first-time sign-ins.
+      allow create: if isCreatingOwnCustomerProfile() && isNotImpersonating();
+
+      allow update: if isAdmin() || (isSelf(userId) && roleUnchanged());
+
+      // Deleting accounts is deliberately admin-only.
+      allow delete: if isAdmin();
+
+      // Wishlist — the customer owns it outright.
+      match /wishlist/{productId} {
+        allow read, write: if isSelf(userId);
+      }
+
+      // Cart — the customer owns it outright.
+      match /cart/{productId} {
+        allow read, write: if isSelf(userId);
+      }
+    }
+
+    // ---------------------------------------------------------------------
+    // Catalogue — readable by anyone signed in, writable by admins only.
+    //
+    // Image management is deliberately NOT a Firestore capability. Firestore
+    // stores image *metadata* only: a Cloudinary public id, a secure delivery
+    // URL and ordering. Creating and deleting the actual image is done through
+    // Cloudinary by an admin-only Cloud Function, because the Cloudinary API
+    // secret must never be reachable from a client.
+    // ---------------------------------------------------------------------
+
+    match /products/{productId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    match /categories/{categoryId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    match /banners/{bannerId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // ---------------------------------------------------------------------
+    // orders — a customer may create and read only their own.
+    // ---------------------------------------------------------------------
+
+    match /orders/{orderId} {
+      allow create: if isSignedIn()
+        && request.resource.data.userId == request.auth.uid
+        && request.resource.data.status == 'Pending';
+
+      // Status is the admin's to change after creation.
+      allow update: if isAdmin();
+      allow read: if isAdmin() || resource.data.userId == request.auth.uid;
+      allow delete: if isAdmin();
+    }
+
+    // ---------------------------------------------------------------------
+    // settings — publicly readable, writable by admins only.
+    // ---------------------------------------------------------------------
+
+    match /settings/{docId} {
+      // Read is deliberately anonymous. The login screen renders the store
+      // name, the WhatsApp contact number and the rate table before anyone has
+      // signed in; locking this behind isSignedIn() would leave the brand name
+      // blank on the one screen a first-time visitor ever sees, and would break
+      // the contact-us button on it.
+      //
+      // These fields are public business configuration, never customer data.
+      // Role is still read from users/{uid}, so nothing here can promote anyone.
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // ---------------------------------------------------------------------
+    // notifications — you may only read what was addressed to you.
+    // ---------------------------------------------------------------------
+
+    match /notifications/{notificationId} {
+      allow read: if isSignedIn()
+        && (isAdmin()
+            || resource.data.userId == request.auth.uid
+            || resource.data.audience in ['all', 'customers', 'admins']);
+      allow write: if isAdmin();
+    }
+
+    // Everything else is off-limits.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

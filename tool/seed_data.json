@@ -1,0 +1,1299 @@
+{
+  "categories": [
+    {
+      "categoryId": "cat-earrings",
+      "name": "Earrings",
+      "description": "Studs, jhumkas and danglers for every mood.",
+      "image": "",
+      "icon": "diamond",
+      "isActive": true,
+      "sortOrder": 1,
+      "productCount": 4,
+      "createdAt": {
+        "__dateTime": "2026-06-04T05:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552338Z"
+      }
+    },
+    {
+      "categoryId": "cat-necklaces",
+      "name": "Necklaces",
+      "description": "Elegant statement pieces in gold and rose gold.",
+      "image": "",
+      "icon": "auto_awesome",
+      "isActive": true,
+      "sortOrder": 2,
+      "productCount": 4,
+      "createdAt": {
+        "__dateTime": "2026-06-04T05:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552771Z"
+      }
+    },
+    {
+      "categoryId": "cat-chains",
+      "name": "Chains",
+      "description": "Everyday chains layered your way.",
+      "image": "",
+      "icon": "link",
+      "isActive": true,
+      "sortOrder": 3,
+      "productCount": 3,
+      "createdAt": {
+        "__dateTime": "2026-06-06T00:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552787Z"
+      }
+    },
+    {
+      "categoryId": "cat-bangles",
+      "name": "Bangles",
+      "description": "Kundan, pearl and stone bangles.",
+      "image": "",
+      "icon": "donut_large",
+      "isActive": true,
+      "sortOrder": 4,
+      "productCount": 3,
+      "createdAt": {
+        "__dateTime": "2026-06-09T03:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552794Z"
+      }
+    },
+    {
+      "categoryId": "cat-bracelets",
+      "name": "Bracelets",
+      "description": "Delicate charm and link bracelets.",
+      "image": "",
+      "icon": "watch",
+      "isActive": true,
+      "sortOrder": 5,
+      "productCount": 3,
+      "createdAt": {
+        "__dateTime": "2026-06-09T03:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552801Z"
+      }
+    },
+    {
+      "categoryId": "cat-rings",
+      "name": "Rings",
+      "description": "Statement rings with adjustable sizing.",
+      "image": "",
+      "icon": "radio_button_unchecked",
+      "isActive": true,
+      "sortOrder": 6,
+      "productCount": 3,
+      "createdAt": {
+        "__dateTime": "2026-06-12T06:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552807Z"
+      }
+    },
+    {
+      "categoryId": "cat-anklets",
+      "name": "Anklets",
+      "description": "Silver oxidised and ghungroo anklets.",
+      "image": "",
+      "icon": "waves",
+      "isActive": true,
+      "sortOrder": 7,
+      "productCount": 2,
+      "createdAt": {
+        "__dateTime": "2026-06-14T01:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552814Z"
+      }
+    },
+    {
+      "categoryId": "cat-hair-accessories",
+      "name": "Hair Accessories",
+      "description": "Pins, clips and handcrafted hair pieces.",
+      "image": "",
+      "icon": "auto_awesome_motion",
+      "isActive": true,
+      "sortOrder": 8,
+      "productCount": 2,
+      "createdAt": {
+        "__dateTime": "2026-06-16T03:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552821Z"
+      }
+    },
+    {
+      "categoryId": "cat-bridal",
+      "name": "Bridal Jewellery",
+      "description": "Complete bridal sets for the big day.",
+      "image": "",
+      "icon": "favorite",
+      "isActive": true,
+      "sortOrder": 9,
+      "productCount": 2,
+      "createdAt": {
+        "__dateTime": "2026-06-19T06:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552827Z"
+      }
+    },
+    {
+      "categoryId": "cat-kids",
+      "name": "Kids Jewellery",
+      "description": "Delicate, safe and adorable for little ones.",
+      "image": "",
+      "icon": "child_care",
+      "isActive": true,
+      "sortOrder": 10,
+      "productCount": 2,
+      "createdAt": {
+        "__dateTime": "2026-06-24T04:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552835Z"
+      }
+    },
+    {
+      "categoryId": "cat-combo-sets",
+      "name": "Combo Sets",
+      "description": "Curated matching sets at a better price.",
+      "image": "",
+      "icon": "redeem",
+      "isActive": true,
+      "sortOrder": 11,
+      "productCount": 2,
+      "createdAt": {
+        "__dateTime": "2026-06-29T02:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552841Z"
+      }
+    },
+    {
+      "categoryId": "cat-other",
+      "name": "Other",
+      "description": "Pieces that do not fit anywhere else.",
+      "image": "",
+      "icon": "category",
+      "isActive": true,
+      "sortOrder": 12,
+      "productCount": 1,
+      "createdAt": {
+        "__dateTime": "2026-07-04T00:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.552848Z"
+      }
+    }
+  ],
+  "products": [
+    {
+      "productId": "p-er-001",
+      "name": "Temple Jhumka Earrings",
+      "description": "Classic oxidised jhumkas with a traditional temple motif. Lightweight and comfortable for all-day wear, perfect for festivals and everyday styling.",
+      "categoryId": "cat-earrings",
+      "categoryName": "Earrings",
+      "images": [
+        "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800",
+        "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=800"
+      ],
+      "price": 1299.0,
+      "compareAtPrice": 2199.0,
+      "discountPercentage": 0,
+      "stock": 24,
+      "sku": "PC-ER-001",
+      "material": "Gold Plated Brass",
+      "color": "Antique Gold",
+      "size": "",
+      "weight": "22 g",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isFastMoving": true,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 890,
+      "soldCount": 132,
+      "createdAt": {
+        "__dateTime": "2026-06-14T01:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553818Z"
+      }
+    },
+    {
+      "productId": "p-er-002",
+      "name": "Pearl Drop Earrings",
+      "description": "Delicate pearl drops on a gold-plated chain. A refined, minimal design that pairs beautifully with office wear and festive outfits alike.",
+      "categoryId": "cat-earrings",
+      "categoryName": "Earrings",
+      "images": [
+        "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=800"
+      ],
+      "price": 599.0,
+      "compareAtPrice": 999.0,
+      "discountPercentage": 0,
+      "stock": 40,
+      "sku": "PC-ER-002",
+      "material": "Gold Plated, Pearl",
+      "color": "Gold",
+      "size": "",
+      "weight": "8 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": true,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 1420,
+      "soldCount": 208,
+      "createdAt": {
+        "__dateTime": "2026-06-19T06:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553844Z"
+      }
+    },
+    {
+      "productId": "p-er-003",
+      "name": "Kundan Stone Dangler",
+      "description": "Traditional kundan and polki danglers finished with a rose-gold polish. A statement piece for weddings and family celebrations.",
+      "categoryId": "cat-earrings",
+      "categoryName": "Earrings",
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800"
+      ],
+      "price": 1899.0,
+      "compareAtPrice": 2899.0,
+      "discountPercentage": 0,
+      "stock": 12,
+      "sku": "PC-ER-003",
+      "material": "Kundan, Polki Stones",
+      "color": "Rose Gold",
+      "size": "",
+      "weight": "35 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": true,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-09-14T02:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553859Z"
+      }
+    },
+    {
+      "productId": "p-er-004",
+      "name": "Rose Gold Huggie Hoops",
+      "description": "Sleek, huggie-style hoops with a subtle shine. Hypoallergenic posts make them suitable for sensitive ears.",
+      "categoryId": "cat-earrings",
+      "categoryName": "Earrings",
+      "images": [
+        "https://images.unsplash.com/photo-1635767798638-3e25273a8236?w=800"
+      ],
+      "price": 749.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 30,
+      "sku": "PC-ER-004",
+      "material": "Stainless Steel, Gold Plated",
+      "color": "Rose Gold",
+      "size": "",
+      "weight": "6 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": true,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 34,
+      "createdAt": {
+        "__dateTime": "2026-09-23T04:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553874Z"
+      }
+    },
+    {
+      "productId": "p-nk-001",
+      "name": "Gold Plated Necklace",
+      "description": "A timeless choker-style necklace with an intricate paisley design. Anti-tarnish coating keeps it shining through the season.",
+      "categoryId": "cat-necklaces",
+      "categoryName": "Necklaces",
+      "images": [
+        "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800",
+        "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=800"
+      ],
+      "price": 1299.0,
+      "compareAtPrice": 2599.0,
+      "discountPercentage": 0,
+      "stock": 18,
+      "sku": "PC-NK-001",
+      "material": "Gold Plated Brass",
+      "color": "Gold",
+      "size": "",
+      "weight": "45 g",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isFastMoving": true,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 1310,
+      "soldCount": 176,
+      "createdAt": {
+        "__dateTime": "2026-06-16T03:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553889Z"
+      }
+    },
+    {
+      "productId": "p-nk-002",
+      "name": "Kundan Bridal Necklace Set",
+      "description": "A complete bridal set with matching jhumkas and a maang tikka. Handcrafted with kundan and pearl detailing for the most important day.",
+      "categoryId": "cat-bridal",
+      "categoryName": "Bridal Jewellery",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800"
+      ],
+      "price": 4999.0,
+      "compareAtPrice": 7999.0,
+      "discountPercentage": 0,
+      "stock": 6,
+      "sku": "PC-NK-002",
+      "material": "Kundan, Pearl, Gold Plated",
+      "color": "Gold",
+      "size": "",
+      "weight": "210 g",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 940,
+      "soldCount": 41,
+      "createdAt": {
+        "__dateTime": "2026-06-24T04:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553904Z"
+      }
+    },
+    {
+      "productId": "p-nk-003",
+      "name": "Layered Butterfly Necklace",
+      "description": "Two delicate layers joined by a butterfly motif. Subtle, modern and effortlessly feminine.",
+      "categoryId": "cat-necklaces",
+      "categoryName": "Necklaces",
+      "images": [
+        "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=800"
+      ],
+      "price": 899.0,
+      "compareAtPrice": 1499.0,
+      "discountPercentage": 0,
+      "stock": 25,
+      "sku": "PC-NK-003",
+      "material": "Gold Plated Alloy",
+      "color": "Gold",
+      "size": "",
+      "weight": "18 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": true,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 57,
+      "createdAt": {
+        "__dateTime": "2026-09-10T05:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553918Z"
+      }
+    },
+    {
+      "productId": "p-nk-004",
+      "name": "Mangalsutra Inspired Pendant",
+      "description": "A tasteful everyday pendant with a traditional motif, suitable for daily wear and layering.",
+      "categoryId": "cat-necklaces",
+      "categoryName": "Necklaces",
+      "images": [
+        "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=800"
+      ],
+      "price": 699.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 28,
+      "sku": "PC-NK-004",
+      "material": "Gold Plated Brass",
+      "color": "Gold",
+      "size": "",
+      "weight": "12 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-07-14T03:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553933Z"
+      }
+    },
+    {
+      "productId": "p-cn-001",
+      "name": "Box Chain",
+      "description": "A sturdy, minimal box chain that works alone or as the base layer in a stacked look.",
+      "categoryId": "cat-chains",
+      "categoryName": "Chains",
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800"
+      ],
+      "price": 899.0,
+      "compareAtPrice": 1499.0,
+      "discountPercentage": 0,
+      "stock": 35,
+      "sku": "PC-CH-001",
+      "material": "Gold Plated Steel",
+      "color": "Gold",
+      "size": "",
+      "weight": "20 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": true,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 164,
+      "createdAt": {
+        "__dateTime": "2026-06-22T02:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553949Z"
+      }
+    },
+    {
+      "productId": "p-cn-002",
+      "name": "Rope Chain",
+      "description": "Twisted rope texture with a high-shine finish. A timeless chain that never goes out of style.",
+      "categoryId": "cat-chains",
+      "categoryName": "Chains",
+      "images": [
+        "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?w=800"
+      ],
+      "price": 749.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 42,
+      "sku": "PC-CH-002",
+      "material": "Gold Plated Steel",
+      "color": "Gold",
+      "size": "",
+      "weight": "15 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-06-26T06:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553963Z"
+      }
+    },
+    {
+      "productId": "p-cn-003",
+      "name": "Cuban Link Chain",
+      "description": "Chunky, confident links with a mirror polish. Made to be the statement of any outfit.",
+      "categoryId": "cat-chains",
+      "categoryName": "Chains",
+      "images": [
+        "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=800"
+      ],
+      "price": 1699.0,
+      "compareAtPrice": 2499.0,
+      "discountPercentage": 0,
+      "stock": 14,
+      "sku": "PC-CH-003",
+      "material": "Gold Plated Brass",
+      "color": "Gold",
+      "size": "",
+      "weight": "48 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": true,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-09-18T06:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553978Z"
+      }
+    },
+    {
+      "productId": "p-bg-001",
+      "name": "Kundan Pearl Bangle",
+      "description": "A slim kundan bangle finished with a row of pearls. Designed to be worn singly or stacked.",
+      "categoryId": "cat-bangles",
+      "categoryName": "Bangles",
+      "images": [
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800"
+      ],
+      "price": 1099.0,
+      "compareAtPrice": 1799.0,
+      "discountPercentage": 0,
+      "stock": 20,
+      "sku": "PC-BG-001",
+      "material": "Kundan, Pearl",
+      "color": "Gold",
+      "size": "",
+      "weight": "32 g",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 97,
+      "createdAt": {
+        "__dateTime": "2026-06-28T01:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.553993Z"
+      }
+    },
+    {
+      "productId": "p-bg-002",
+      "name": "Oxidised Bangle Set",
+      "description": "A set of four oxidised bangles with engraved patterns. Perfect for stacking with a traditional outfit.",
+      "categoryId": "cat-bangles",
+      "categoryName": "Bangles",
+      "images": [
+        "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=800"
+      ],
+      "price": 1399.0,
+      "compareAtPrice": 2299.0,
+      "discountPercentage": 0,
+      "stock": 16,
+      "sku": "PC-BG-002",
+      "material": "Oxidised Brass",
+      "color": "Antique Silver",
+      "size": "",
+      "weight": "90 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": true,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 143,
+      "createdAt": {
+        "__dateTime": "2026-06-30T03:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554007Z"
+      }
+    },
+    {
+      "productId": "p-bg-003",
+      "name": "Stone Studded Bangle",
+      "description": "A contemporary bangle set with American-diamond accents and a rose-gold finish.",
+      "categoryId": "cat-bangles",
+      "categoryName": "Bangles",
+      "images": [
+        "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800"
+      ],
+      "price": 1199.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 22,
+      "sku": "PC-BG-003",
+      "material": "Gold Plated, AD Stones",
+      "color": "Rose Gold",
+      "size": "",
+      "weight": "40 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": true,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-09-07T02:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554024Z"
+      }
+    },
+    {
+      "productId": "p-br-001",
+      "name": "Charm Bracelet",
+      "description": "A fine chain bracelet with a single heart charm. Delicate enough for everyday wear.",
+      "categoryId": "cat-bracelets",
+      "categoryName": "Bracelets",
+      "images": [
+        "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=800"
+      ],
+      "price": 649.0,
+      "compareAtPrice": 1099.0,
+      "discountPercentage": 0,
+      "stock": 38,
+      "sku": "PC-BR-001",
+      "material": "Gold Plated Steel",
+      "color": "Gold",
+      "size": "",
+      "weight": "9 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": true,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 187,
+      "createdAt": {
+        "__dateTime": "2026-07-02T05:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554386Z"
+      }
+    },
+    {
+      "productId": "p-br-002",
+      "name": "Cuff Bracelet",
+      "description": "A bold open cuff with a brushed finish. Adds an edge to any outfit without being overpowering.",
+      "categoryId": "cat-bracelets",
+      "categoryName": "Bracelets",
+      "images": [
+        "https://images.unsplash.com/photo-1627293509201-cd0c780043e6?w=800"
+      ],
+      "price": 999.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 26,
+      "sku": "PC-BR-002",
+      "material": "Stainless Steel",
+      "color": "Gold",
+      "size": "",
+      "weight": "28 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-07-06T02:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554404Z"
+      }
+    },
+    {
+      "productId": "p-br-003",
+      "name": "Tennis Bracelet",
+      "description": "A line of sparkling stones set in a flexible bracelet. A glimmering choice for evening occasions.",
+      "categoryId": "cat-bracelets",
+      "categoryName": "Bracelets",
+      "images": [
+        "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=800"
+      ],
+      "price": 1499.0,
+      "compareAtPrice": 2399.0,
+      "discountPercentage": 0,
+      "stock": 15,
+      "sku": "PC-BR-003",
+      "material": "Gold Plated, AD Stones",
+      "color": "Gold",
+      "size": "",
+      "weight": "24 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": true,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-09-21T02:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554419Z"
+      }
+    },
+    {
+      "productId": "p-rg-001",
+      "name": "Solitaire Ring",
+      "description": "A classic solitaire on a slim adjustable band. The simplest ring is often the most versatile.",
+      "categoryId": "cat-rings",
+      "categoryName": "Rings",
+      "images": [
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800"
+      ],
+      "price": 799.0,
+      "compareAtPrice": 1399.0,
+      "discountPercentage": 0,
+      "stock": 30,
+      "sku": "PC-RG-001",
+      "material": "Gold Plated Silver",
+      "color": "Gold",
+      "size": "",
+      "weight": "5 g",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 154,
+      "createdAt": {
+        "__dateTime": "2026-07-08T04:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554451Z"
+      }
+    },
+    {
+      "productId": "p-rg-002",
+      "name": "Statement Kundan Ring",
+      "description": "A bold kundan ring with polki stones and an oxidised finish. Made to be noticed.",
+      "categoryId": "cat-rings",
+      "categoryName": "Rings",
+      "images": [
+        "https://images.unsplash.com/photo-1598560917807-1bae44bd2be8?w=800"
+      ],
+      "price": 1199.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 19,
+      "sku": "PC-RG-002",
+      "material": "Kundan, Polki Stones",
+      "color": "Antique Gold",
+      "size": "",
+      "weight": "14 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 72,
+      "createdAt": {
+        "__dateTime": "2026-07-10T06:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554466Z"
+      }
+    },
+    {
+      "productId": "p-rg-003",
+      "name": "Adjustable Band Ring",
+      "description": "A sleek band with an open-back fit, so you can size it to your comfort.",
+      "categoryId": "cat-rings",
+      "categoryName": "Rings",
+      "images": [
+        "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800"
+      ],
+      "price": 549.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 45,
+      "sku": "PC-RG-003",
+      "material": "Gold Plated Alloy",
+      "color": "Rose Gold",
+      "size": "",
+      "weight": "4 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": true,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-09-25T06:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554480Z"
+      }
+    },
+    {
+      "productId": "p-ak-001",
+      "name": "Silver Oxidised Anklet",
+      "description": "A ghungroo-style anklet with tiny bells. Sounds as lovely as it looks.",
+      "categoryId": "cat-anklets",
+      "categoryName": "Anklets",
+      "images": [
+        "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=800"
+      ],
+      "price": 649.0,
+      "compareAtPrice": 1199.0,
+      "discountPercentage": 0,
+      "stock": 33,
+      "sku": "PC-AK-001",
+      "material": "Oxidised Silver Alloy",
+      "color": "Silver",
+      "size": "",
+      "weight": "18 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 119,
+      "createdAt": {
+        "__dateTime": "2026-07-16T05:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554506Z"
+      }
+    },
+    {
+      "productId": "p-ak-002",
+      "name": "Beaded Charm Anklet",
+      "description": "Colourful glass beads with a small charm pendant. Youthful and playful.",
+      "categoryId": "cat-anklets",
+      "categoryName": "Anklets",
+      "images": [
+        "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800"
+      ],
+      "price": 499.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 40,
+      "sku": "PC-AK-002",
+      "material": "Glass Beads, Steel Chain",
+      "color": "Multi",
+      "size": "",
+      "weight": "11 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": true,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-09-16T04:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554521Z"
+      }
+    },
+    {
+      "productId": "p-hr-001",
+      "name": "Pearl Hair Clip Set",
+      "description": "A set of three pearl-studded clips for half-up hairstyles. Secure and comfortable.",
+      "categoryId": "cat-hair-accessories",
+      "categoryName": "Hair Accessories",
+      "images": [
+        "https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=800"
+      ],
+      "price": 399.0,
+      "compareAtPrice": 699.0,
+      "discountPercentage": 0,
+      "stock": 50,
+      "sku": "PC-HR-001",
+      "material": "Alloy, Pearl",
+      "color": "Gold",
+      "size": "",
+      "weight": "20 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 211,
+      "createdAt": {
+        "__dateTime": "2026-07-20T02:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554536Z"
+      }
+    },
+    {
+      "productId": "p-hr-002",
+      "name": "Kundan Hair Comb",
+      "description": "An ornate kundan comb that transforms a simple bun into a festive look in seconds.",
+      "categoryId": "cat-hair-accessories",
+      "categoryName": "Hair Accessories",
+      "images": [
+        "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=800"
+      ],
+      "price": 899.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 24,
+      "sku": "PC-HR-002",
+      "material": "Kundan, Gold Plated",
+      "color": "Gold",
+      "size": "",
+      "weight": "38 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-07-24T06:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554552Z"
+      }
+    },
+    {
+      "productId": "p-bd-001",
+      "name": "Bridal Matha Patti",
+      "description": "A statement headpiece for the bride. Kundan base with pearl and kundan drops.",
+      "categoryId": "cat-bridal",
+      "categoryName": "Bridal Jewellery",
+      "images": [
+        "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800"
+      ],
+      "price": 2999.0,
+      "compareAtPrice": 4999.0,
+      "discountPercentage": 0,
+      "stock": 5,
+      "sku": "PC-BD-001",
+      "material": "Kundan, Pearl",
+      "color": "Gold",
+      "size": "",
+      "weight": "95 g",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 28,
+      "createdAt": {
+        "__dateTime": "2026-07-28T03:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554568Z"
+      }
+    },
+    {
+      "productId": "p-kd-001",
+      "name": "Little Star Kids Earrings",
+      "description": "Lightweight, rounded edges and a secure screw back — designed with safety in mind for little ears.",
+      "categoryId": "cat-kids",
+      "categoryName": "Kids Jewellery",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800"
+      ],
+      "price": 299.0,
+      "compareAtPrice": 499.0,
+      "discountPercentage": 0,
+      "stock": 60,
+      "sku": "PC-KD-001",
+      "material": "Gold Plated Alloy",
+      "color": "Gold",
+      "size": "",
+      "weight": "3 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": true,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 265,
+      "createdAt": {
+        "__dateTime": "2026-08-01T00:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554584Z"
+      }
+    },
+    {
+      "productId": "p-kd-002",
+      "name": "Tiny Bead Bracelet",
+      "description": "A charm bracelet sized for small wrists, with a breakaway clasp for safety.",
+      "categoryId": "cat-kids",
+      "categoryName": "Kids Jewellery",
+      "images": [
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800"
+      ],
+      "price": 249.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 55,
+      "sku": "PC-KD-002",
+      "material": "Gold Plated Steel",
+      "color": "Rose Gold",
+      "size": "",
+      "weight": "6 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": true,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-09-13T01:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554603Z"
+      }
+    },
+    {
+      "productId": "p-cb-001",
+      "name": "Everyday Combo Set",
+      "description": "A curated set of a choker, jhumkas and a ring — the easiest way to look put together.",
+      "categoryId": "cat-combo-sets",
+      "categoryName": "Combo Sets",
+      "images": [
+        "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800",
+        "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800"
+      ],
+      "price": 2199.0,
+      "compareAtPrice": 3499.0,
+      "discountPercentage": 0,
+      "stock": 18,
+      "sku": "PC-CB-001",
+      "material": "Gold Plated Brass",
+      "color": "Gold",
+      "size": "",
+      "weight": "85 g",
+      "isAvailable": true,
+      "isFeatured": true,
+      "isFastMoving": true,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 1050,
+      "soldCount": 148,
+      "createdAt": {
+        "__dateTime": "2026-08-05T04:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554621Z"
+      }
+    },
+    {
+      "productId": "p-cb-002",
+      "name": "Festive Combo Set",
+      "description": "Necklace, earrings, bangles and a maang tikka in a festive rose-gold finish. Complete festive coverage in one box.",
+      "categoryId": "cat-combo-sets",
+      "categoryName": "Combo Sets",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800"
+      ],
+      "price": 3499.0,
+      "compareAtPrice": 5999.0,
+      "discountPercentage": 0,
+      "stock": 9,
+      "sku": "PC-CB-002",
+      "material": "Kundan, Gold Plated",
+      "color": "Rose Gold",
+      "size": "",
+      "weight": "240 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": true,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 39,
+      "createdAt": {
+        "__dateTime": "2026-09-27T01:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554638Z"
+      }
+    },
+    {
+      "productId": "p-ot-001",
+      "name": "Brooch Pin",
+      "description": "A vintage-style brooch that adds character to plain fabrics and jackets.",
+      "categoryId": "cat-other",
+      "categoryName": "Other",
+      "images": [
+        "https://images.unsplash.com/photo-1635767798638-3e25273a8236?w=800"
+      ],
+      "price": 349.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 30,
+      "sku": "PC-OT-001",
+      "material": "Gold Plated Alloy",
+      "color": "Antique Gold",
+      "size": "",
+      "weight": "8 g",
+      "isAvailable": true,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": true,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-08-13T05:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554653Z"
+      }
+    },
+    {
+      "productId": "p-er-099",
+      "name": "Seasonal Test Piece",
+      "description": "A discontinued design kept for reference.",
+      "categoryId": "cat-earrings",
+      "categoryName": "Earrings",
+      "images": [
+        "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=800"
+      ],
+      "price": 499.0,
+      "compareAtPrice": 0.0,
+      "discountPercentage": 0,
+      "stock": 0,
+      "sku": "PC-ER-099",
+      "material": "",
+      "color": "",
+      "size": "",
+      "weight": "",
+      "isAvailable": false,
+      "isFeatured": false,
+      "isFastMoving": false,
+      "isNewArrival": false,
+      "isActive": false,
+      "views": 0,
+      "soldCount": 0,
+      "createdAt": {
+        "__dateTime": "2026-03-16T02:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.554763Z"
+      }
+    }
+  ],
+  "banners": [
+    {
+      "bannerId": "bn-001",
+      "title": "Discover Your Perfect Sparkle",
+      "subtitle": "Elegant imitation jewellery for every occasion.",
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1200",
+      "buttonText": "Shop Collection",
+      "buttonAction": "openCategory",
+      "actionValue": "cat-necklaces",
+      "isActive": true,
+      "sortOrder": 1,
+      "createdAt": {
+        "__dateTime": "2026-09-02T04:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.555221Z"
+      }
+    },
+    {
+      "bannerId": "bn-002",
+      "title": "Festive Bridal Jewellery",
+      "subtitle": "Kundan sets, matha pattis and complete bridal looks.",
+      "image": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1200",
+      "buttonText": "Explore Bridal",
+      "buttonAction": "openCategory",
+      "actionValue": "cat-bridal",
+      "isActive": true,
+      "sortOrder": 2,
+      "createdAt": {
+        "__dateTime": "2026-09-12T00:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.555231Z"
+      }
+    },
+    {
+      "bannerId": "bn-003",
+      "title": "New Arrivals Are Here",
+      "subtitle": "Fresh designs added to the collection this month.",
+      "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=1200",
+      "buttonText": "See What is New",
+      "buttonAction": "openNewArrivals",
+      "actionValue": "",
+      "isActive": true,
+      "sortOrder": 3,
+      "createdAt": {
+        "__dateTime": "2026-09-20T01:16:43.551435Z"
+      },
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.555238Z"
+      }
+    }
+  ],
+  "settings": {
+    "app": {
+      "storeName": "Padma Collections",
+      "tagline": "Elegance That Belongs to You",
+      "subtitle": "Imitation Jewellery",
+      "description": "Padma Collections offers stylish, elegant and affordable imitation jewellery for everyday wear, special occasions, weddings and gifting. Every piece is selected to help you find the sparkle that feels like you.",
+      "logoUrl": "",
+      "phone": "9876543210",
+      "email": "hello@padmacollections.com",
+      "address": "Shop 14, MG Road, Bengaluru, Karnataka 560001",
+      "whatsappNumber": "",
+      "instagramUrl": "https://instagram.com/padmacollections",
+      "facebookUrl": "https://facebook.com/padmacollections",
+      "websiteUrl": "https://padmacollections.com",
+      "shippingInformation": "Orders are dispatched within 2–4 working days. Delivery is available across India, typically in 4–7 days. Charges and estimated timelines are confirmed on WhatsApp before dispatch.",
+      "termsAndConditions": "1. All items are imitation jewellery and are not real gold, silver or diamonds.\n\n2. Prices may change without prior notice. The price confirmed on WhatsApp at the time of order is final.\n\n3. Colours and finishes may vary slightly between the product photographs and the physical item.\n\n4. Advance confirmation over WhatsApp is required for every order. Orders are dispatched only after confirmation.\n\n5. To cancel an order, please contact us on WhatsApp before it is dispatched.",
+      "privacyPolicy": "We collect only the information needed to process your order: your name, phone number and delivery address.\n\nYour details are used solely to fulfil your order and to send order-related updates. We never sell or share your personal information with third parties.\n\nYou may ask us to delete your data at any time by contacting us on WhatsApp.",
+      "aboutUs": "Padma Collections began with a simple idea: beautiful jewellery should not be out of reach. What started as a small collection of everyday pieces has grown into a curated range spanning earrings, necklaces, chains, bangles, bracelets, rings, anklets, hair accessories, bridal sets and kids jewellery.\n\nEvery design is checked for finish, comfort and durability before it reaches our collection. We are a small team that personally replies to every message, so you always talk to someone who knows the jewellery.",
+      "currencySymbol": "₹",
+      "supportHours": "Monday to Saturday, 10:00 AM – 8:00 PM",
+      "fcmEnabled": true,
+      "maintenanceMode": false,
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.555598Z"
+      }
+    },
+    "whatsapp": {
+      "phoneNumber": "919876543210",
+      "businessName": "Padma Collections",
+      "defaultMessage": "Hello Padma Collections, I would like to know more about your jewellery products.",
+      "orderTemplate": "",
+      "autoOpenOnCheckout": true,
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.556433Z"
+      }
+    },
+    "rate": {
+      "baseRate": 0.0,
+      "makingChargePercent": 0.0,
+      "makingChargeFlat": 0.0,
+      "defaultDiscountPercent": 0.0,
+      "taxPercent": 0.0,
+      "shippingCharge": 79.0,
+      "freeShippingAbove": 1499.0,
+      "applyMakingCharge": true,
+      "applyDiscount": false,
+      "applyTax": false,
+      "applyShipping": true,
+      "updatedAt": {
+        "__dateTime": "2026-10-02T06:16:43.556687Z"
+      }
+    }
+  }
+}
